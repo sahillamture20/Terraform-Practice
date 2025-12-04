@@ -122,21 +122,8 @@ Reference modules: `module "vpc" { source = "./modules/vpc" }`
 - Secrets Manager for sensitive data
 
 #### 4. CI/CD Integration
-- **GitHub Actions** - Automated `terraform plan` on pull requests
-- **AWS CodePipeline** - Continuous deployment pipeline
-- **Terraform Cloud** - Collaborative infrastructure management
+- **GitHub Actions/Jenkins** - Automated `terraform plan` on pull requests
 - **Pre-commit Hooks** - Validate and format code before commits
-
-#### 5. Security & Compliance
-- AWS Config rules for compliance checking
-- VPC Flow Logs for network monitoring
-- CloudTrail for audit logging
-- Implement least-privilege IAM policies
-
-#### 6. Cost Optimization
-- Tagging strategy for resource tracking
-- Budget alerts and cost anomaly detection
-- Right-sizing recommendations
 
 ## 📚 Learning Resources
 
@@ -147,10 +134,6 @@ Reference modules: `module "vpc" { source = "./modules/vpc" }`
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is open source and available under the MIT License.
 
 ## 👤 Author
 
