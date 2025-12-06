@@ -65,9 +65,10 @@ Remove all resources created by this project when no longer needed.
 ### Immediate Upgrades (Intermediate Level)
 
 #### 1. Variables and Outputs
-- **Add `variables.tf`** - Centralize configuration values
-- **Add `outputs.tf`** - Export important resource attributes
-- **Use Variable References** - Replace hardcoded values with `var.` references
+- **Add `variables.tf`** - Centralize configuration values - Impletemented on 07 Dec 2025
+- **Add `outputs.tf`** - Export important resource attributes - Impletemented on 07 Dec 2025
+- **Use Variable References** - Replace hardcoded values with `var.` references - Impletemented on 07 Dec 2025
+- **Save plan** - Save your infrastructure plan with "terraform plan -out" - - Impletemented on 07 Dec 2025
 
 #### 2. Data Sources
 - Fetch existing AWS resources dynamically
