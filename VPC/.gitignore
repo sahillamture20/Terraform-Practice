@@ -8,3 +8,5 @@ terraform.tfvars
 override.tf
 override.tf.json
 *.terraform.rc
+*.tfplan
+*.tfplan.json

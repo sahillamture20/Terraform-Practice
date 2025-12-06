@@ -22,10 +22,17 @@ terraform apply
 terraform apply -auto-approve
 terraform destroy
 terraform destroy -target=resource_type.resource_name
-
-=================================
-Terraform Projects:
-
-https://towardsaws.com/top-5-terraform-projects-for-aws-to-boost-your-resume-easy-intermediate-expert-levels-with-59c5cc67c3e0
-https://towardsaws.com/boost-your-resume-with-this-five-aws-projects-easy-intermediate-and-expert-levels-with-6224eef9e2ae
-https://www.techworld-with-nana.com/post/terraform-learning-roadmap
+terraform plan -out <file-path-name>.tfplan
+	Example: terraform plan -out my_infra_plan.tfplan
+	Note: The file created with "terraform plan -out=..." is not directly human-readable. 
+	      It is saved in a binary format intended only to be consumed by the terraform apply command.
+terraform show <file-pat-name>.tfplan
+	Example: terraform show my_infra_plan.tfplan
+	Note: Reads and outputs a Terraform state or plan file in a human-readable
+  		  form. If no path is specified, the current state will be shown.
+	Options:
+		-no-color   If specified, output won't contain any color.
+			Example: terraform show -no-color my_infra_plan.tfplan > readable_plan.txt
+  		-json       If specified, output the Terraform plan or state in a machine-readable form.
+			Example: terraform show -json my_infra_plan.tfplan
+	
