@@ -1,6 +1,6 @@
 # Terraform AWS Infrastructure Project
 
-A second VPC folder is a comprehensive Terraform project demonstrating Infrastructure as Code (IaC) principles by provisioning and managing AWS resources including VPC networking, S3 storage, IAM security, and EC2 compute instances.
+This is a comprehensive Terraform project demonstrating Infrastructure as Code (IaC) principles by provisioning and managing AWS resources including VPC networking, S3 storage, IAM security, and EC2 compute instances.
 
 ## 📋 Overview
 
